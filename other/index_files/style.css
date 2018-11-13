@@ -1,0 +1,175 @@
+body{
+	text-align:center;
+	background: #CEE2EB;
+	font-size: 62.5%;
+	color: #111;
+	font-family: Verdana;
+}
+
+fieldset, ul{
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+ul{list-style: none;}
+
+h1{
+	font-weight: lighter;
+	color: #4299ED;
+	padding: 0;
+	margin: 0;
+	font-size: 2.5em;
+	border-bottom: 2px solid #f1f1f1;
+	padding: 0 0 10px 0;
+	margin: 0 0 10px 0;
+        word-wrap: break-word;
+}
+
+#header {
+    margin: 25px auto;
+    width: 318px;
+    padding: 20px;
+    background: white;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#content{
+	margin: 25px auto;
+	width: 318px;
+	padding: 20px;
+	background: white;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+ul.alert{
+	width: 96.5%;
+	padding: 1px 10px;
+	background: #e1e1e1;
+	font-size: 1.3em;
+	margin: 0 0 10px 0;
+}
+
+ul.alert.error{
+	background: #ffbcbc;
+	color: #a40f0f;
+	border-bottom: 2px solid #e59898;
+}
+
+ul.alert.success{
+	background: #d2ffc8;
+	color: #227d0d;
+	border-bottom: 2px solid #9fde91;
+}
+
+fieldset li{
+	margin: 0 0 15px 0;
+}
+
+input[type=text],
+input[type=password]{
+    width: 98%;
+    margin: 0;
+	padding: 7px 5px 4px;
+	color: #555;
+	font-size: 18px;
+	font-family: inherit;
+	border-color: #E5E5E5;
+	border-style: solid;
+	border-width: 0 1px 1px 0;
+	background: #fff url(bg_input.png) no-repeat scroll left top;
+}
+
+label{
+	color: #333;
+	font-size: 1.4em;
+	line-height: 1.9em;
+}
+
+#chatbox {
+	line-height: 12px;
+	text-align:left;
+	font-size: 75%;
+	margin-bottom:14px;
+	padding:6px;
+	background: #CEE2EB;
+	height:169px;
+	width:306px;
+	word-wrap: break-word;
+	overflow-y:auto; }
+
+/* --
+
+These buttons are property of Zurb
+http://www.zurb.com/blog_uploads/0000/0485/buttons-02.html
+
+-- */
+
+input.button {
+	float: left;
+	border: 0;
+	display: inline-block;
+	padding: 5px 10px 6px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 1;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+/* 	-webkit-box-shadow: 0 1px 3px #999; */
+	text-shadow: 0 -1px 1px #222;
+	border-bottom: 1px solid #222;
+	position: relative;
+	cursor: pointer;
+/* 	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5); */
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+
+ /* Sizes ---------- */
+.small.button {
+    font-size: 11px;
+}
+.medium.button {
+    font-size: 13px;
+}
+.large.button {
+    font-size: 14px;
+    padding: 10px 14px 9px;
+    width: 318;
+}
+
+button.large.button {
+    font-size: 14px;
+    padding: 7px 7px 7px 10px;
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+ 
+/* Colors ---------- */
+.disabled.button {
+    background-color: #999;
+}
+
+.green.button {
+    background-color: #45b434;
+}
+
+.blue.button {
+    background-color: #2daebf;
+}
+.red.button {
+    background-color: #e33100;
+}
+.magenta.button {
+    background-color: #a9014b;
+}
+.orange.button {
+    background-color: #ff5c00;
+}
+.yellow.button {
+    background-color: #ffb515;
+}
+                                
